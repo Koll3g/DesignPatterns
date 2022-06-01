@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{84210497-B9CC-4D98-A2ED-DE771E49AED5}"
+	ProjectSection(SolutionItems) = preProject
+		Mediator.md = Mediator.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{3297D8C0-336D-4FCE-9BEE-4E81CDD8DDA8}"
 EndProject
