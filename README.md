@@ -2,7 +2,7 @@
 Repo der Klasse HF-IT-ABC-20H-23H zur Sammlung der verschiedenen SW Design Patterns
 
 ## Wiki
-Im Wiki sind alle Patterns im Detail beschrieben -> Go & have a look!
+Im [Wiki](../../wiki) sind alle Patterns im Detail beschrieben -> Go & have a look! 
 
 ## Authors
 - Prototype -> Matthias 
