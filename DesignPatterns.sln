@@ -4,13 +4,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{84210497-B9CC-4D98-A2ED-DE771E49AED5}"
-	ProjectSection(SolutionItems) = preProject
-		Mediator.md = Mediator.md
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{3297D8C0-336D-4FCE-9BEE-4E81CDD8DDA8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorUnitTests", "MediatorUnitTests\MediatorUnitTests.csproj", "{272DAC8C-38FB-43EA-A855-93D05CF28BDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{896F770C-6E67-4E44-9113-FDF7A7F38439}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{9F2606EB-19FB-40FA-8BFC-F50FB20F24DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{66CE9721-AF46-4C95-B16E-49E5B3A37ED2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{F31781C3-A410-44CE-AF90-0E8B9FC9189E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{0EDE4EBE-0248-4428-9080-42BAA25AE6EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{DFD30C76-0FCD-4827-A8C0-B9127C9FFC17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{228ED45F-BCA6-4AC0-9A91-C66BDC10B1EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{44F2C1E4-9227-413E-A298-F53BBD18B5F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{D9691E87-C38D-438E-8F78-115745965C70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{06379F80-E607-4C50-A865-12AB28F10735}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{DA7B6C12-E2E3-4955-A876-FB39EB8DBF5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{989C0FB8-E5E8-4518-B844-5E8FAD3372D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{B48D35C2-493C-48DE-9633-7990BC23590B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "TemplateMethod", "{C1BA2610-B2DB-454B-8931-6550A5E787E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
