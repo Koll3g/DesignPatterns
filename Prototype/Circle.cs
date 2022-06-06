@@ -20,7 +20,7 @@ namespace Prototype
             radius = source.radius;
         }
 
-        public override IShapePrototype clone()
+        public override IShapePrototype Clone()
         {
             return new Circle(this);
         }

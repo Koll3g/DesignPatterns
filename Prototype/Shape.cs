@@ -17,7 +17,7 @@
             y = source.y;
         }
 
-        public abstract IShapePrototype clone();
+        public abstract IShapePrototype Clone();
 
         public override bool Equals(Object obj)
         {

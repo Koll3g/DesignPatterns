@@ -8,6 +8,6 @@ namespace Prototype
 {
     public interface IShapePrototype
     {
-        public IShapePrototype clone();
+        public IShapePrototype Clone();
     }
 }

@@ -23,7 +23,7 @@ namespace Prototype
             height = source.height;
         }
 
-        public override IShapePrototype clone()
+        public override IShapePrototype Clone()
         {
             return new Rectangle(this);
         }
