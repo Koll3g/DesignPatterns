@@ -10,6 +10,11 @@ namespace Prototype
     {
         public int radius;
 
+        public Circle() : base()
+        {
+            radius = 0;
+        }
+
         public Circle(Circle source) : base(source)
         {
             radius = source.radius;

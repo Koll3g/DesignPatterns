@@ -11,6 +11,12 @@ namespace Prototype
         public int width;
         public int height;
 
+        public Rectangle() : base()
+        {
+            width = 0;
+            height = 0;
+        }
+
         public Rectangle(Rectangle source) : base(source)
         {
             width = source.width;
