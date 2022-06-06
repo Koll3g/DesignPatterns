@@ -5,7 +5,8 @@
         public int x;
         public int y;
 
-        public Shape() {
+        public Shape()
+        {
             x = 0;
             y = 0;
         }
@@ -17,5 +18,19 @@
         }
 
         public abstract IShapePrototype clone();
+
+        public override bool Equals(Object obj)
+        {
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+            {
+                return false;
+            }
+            else
+            {
+                Shape p = (Shape)obj;
+                return (x == p.x) 
+                    && (y == p.y);
+            }
+        }
     }
 }

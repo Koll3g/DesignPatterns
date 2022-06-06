@@ -11,7 +11,8 @@ namespace Prototype
         public int width;
         public int height;
 
-        public Rectangle(Rectangle source) : base(source) {
+        public Rectangle(Rectangle source) : base(source)
+        {
             width = source.width;
             height = source.height;
         }
@@ -20,5 +21,21 @@ namespace Prototype
         {
             return new Rectangle(this);
         }
+
+        public override bool Equals(Object obj)
+        {
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+            {
+                return false;
+            }
+            else
+            {
+                Rectangle p = (Rectangle)obj;
+                return (width == p.width) 
+                    && (height == p.height) 
+                    && (base.Equals(p));
+            }
+        }
+
     }
 }
