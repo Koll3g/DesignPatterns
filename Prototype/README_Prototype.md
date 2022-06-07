@@ -50,15 +50,15 @@ classDiagram
         +Equals(Object obj)
     }
     class Circle{
-        +radius
+        +Int radius
         +Circle()
         +Circle(Circle source)
         +Clone()
         +Equals(Object obj)
     }
     class Rectangle{
-        +width
-        +height
+        +Int width
+        +Int height
         +Rectangle()
         +Rectangle(Rectangle source)
         +Clone()
