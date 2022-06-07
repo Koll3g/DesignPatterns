@@ -38,7 +38,7 @@ classDiagram
     Shape <|-- Rectangle
     class IShapePrototype{
         <<interface>>
-        clone()
+        Clone()
     }
     class Shape{
         <<abstract>>
