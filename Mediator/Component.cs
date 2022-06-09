@@ -15,9 +15,14 @@ namespace Mediator
             dialog = mediator;
         }
 
-        public void UserFocus()
+        public void Click()
         {
-            dialog.Notify(this, "UserFocus");
+            dialog.Notify(this, "click");
+        }
+
+        public void KeyPress()
+        {
+            dialog?.Notify(this, "keyPress");
         }
     }
 }
