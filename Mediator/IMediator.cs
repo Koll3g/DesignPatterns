@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Mediator
 {
-    internal class MyFancyMediatorClass
+    public interface IMediator
     {
+        public void Notify(Component sender, string eventDescription);
     }
 }
