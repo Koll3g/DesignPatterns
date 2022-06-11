@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{84210497-B9CC-4D98-A2ED-DE771E49AED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{3297D8C0-336D-4FCE-9BEE-4E81CDD8DDA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{3297D8C0-336D-4FCE-9BEE-4E81CDD8DDA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorUnitTests", "MediatorUnitTests\MediatorUnitTests.csproj", "{272DAC8C-38FB-43EA-A855-93D05CF28BDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorUnitTests", "MediatorUnitTests\MediatorUnitTests.csproj", "{272DAC8C-38FB-43EA-A855-93D05CF28BDB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{896F770C-6E67-4E44-9113-FDF7A7F38439}"
 EndProject
@@ -37,6 +37,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{B48D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "TemplateMethod", "{C1BA2610-B2DB-454B-8931-6550A5E787E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{92F2AADE-6465-4DBC-8B21-F8E711F82656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyUnitTests", "ProxyUnitTests\ProxyUnitTests.csproj", "{190CDF4E-A86D-4F51-9414-4EB0C666AF5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{272DAC8C-38FB-43EA-A855-93D05CF28BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{272DAC8C-38FB-43EA-A855-93D05CF28BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{272DAC8C-38FB-43EA-A855-93D05CF28BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F2AADE-6465-4DBC-8B21-F8E711F82656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F2AADE-6465-4DBC-8B21-F8E711F82656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F2AADE-6465-4DBC-8B21-F8E711F82656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F2AADE-6465-4DBC-8B21-F8E711F82656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190CDF4E-A86D-4F51-9414-4EB0C666AF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190CDF4E-A86D-4F51-9414-4EB0C666AF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190CDF4E-A86D-4F51-9414-4EB0C666AF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190CDF4E-A86D-4F51-9414-4EB0C666AF5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +70,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3297D8C0-336D-4FCE-9BEE-4E81CDD8DDA8} = {84210497-B9CC-4D98-A2ED-DE771E49AED5}
 		{272DAC8C-38FB-43EA-A855-93D05CF28BDB} = {84210497-B9CC-4D98-A2ED-DE771E49AED5}
+		{92F2AADE-6465-4DBC-8B21-F8E711F82656} = {DFD30C76-0FCD-4827-A8C0-B9127C9FFC17}
+		{190CDF4E-A86D-4F51-9414-4EB0C666AF5D} = {DFD30C76-0FCD-4827-A8C0-B9127C9FFC17}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {571DA0C6-A6F1-4CBE-AD30-58EBE49CD9DD}
