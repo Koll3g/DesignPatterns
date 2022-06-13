@@ -21,7 +21,7 @@ namespace Memento
         // Creates memento 
         public Memento CreateMemento()
         {
-            return (new Memento(state));
+            return new Memento(state);
         }
         // Restores original state
         public void SetMemento(Memento memento)

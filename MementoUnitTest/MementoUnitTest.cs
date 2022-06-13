@@ -14,13 +14,35 @@ namespace MementoUnitTest
         public void CreateMemento_NewMemento_MementoIsTrue()
         {
             //Arrange
-            Originator o = new Originator();
+            Originator o = new Originator()
+            {
+                State = "True"
+            };
 
             //Act
-            o.State = "True";
+            Memento.Memento m = o.CreateMemento();
 
             //Assert
-            Assert.True(o.State == "True");
+            Assert.Equal(m.State, o.State);
+        }
+
+        [Fact]
+        public void SetMemento_SetMemento_MementoIsSet()
+        {
+            //Arrange
+            Originator o = new Originator()
+            {
+                State = "True",
+            };
+
+            Memento.Memento m = new Memento.Memento("False");
+
+            //Act
+            o.SetMemento(m);
+
+            //Assert
+            Assert.Equal(m.State, o.State);
+
         }
     }
 }
