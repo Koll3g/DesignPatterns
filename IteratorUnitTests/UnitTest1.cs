@@ -6,20 +6,29 @@ namespace IteratorUnitTests
     public class UnitTest1
     {
         [Fact]
-        public void CreateCollection_ItereateOverCollection_ResultTrueIfIteratingEnds()
+        public void CreateCollection_IterateOverCollection_ResultTrueIfLastItemInColIsItemD()
         {
             // arrange
-            ConcreteAggregate a = new ConcreteAggregate();
-            a[0] = "Item A";
-            a[1] = "Item B";
-            a[2] = "Item C";
-            a[3] = "Item D";
+            ConcreteAggregate col = new ConcreteAggregate();
+            col[0] = "Item A";
+            col[1] = "Item B";
+            col[2] = "Item C";
+            col[3] = "Item D";
+
+            string test = null;
 
             // act
-            var iterator = a.CreateIterator();
+            var iterator = col.CreateIterator();
+            var item = iterator.First();
+
+            while (item != null)
+            {
+                test =(string)item;
+                item = iterator.Next();
+            }
 
             // assert
-            iterator.Should().Be("Iterating over collection");
+            col[3].Should().BeSameAs(test);
         }
     }
 }
