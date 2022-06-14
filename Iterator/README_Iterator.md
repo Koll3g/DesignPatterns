@@ -31,6 +31,8 @@ Objekt zu extrahieren, das als Iterator bezeichnet wird.
 
 # UML Diagram
 
+![markdown logo](./iterator.png "UML")
+<!-- 
 ```mermaid
 classDiagram
     
@@ -65,7 +67,7 @@ classDiagram
     class ConcreteIterator{
         <<iterator>>
     }
-```
+``` -->
 
 # Vorteile, Nachteile 
 
