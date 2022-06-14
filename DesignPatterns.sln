@@ -36,6 +36,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{B48D35C2-493C-48DE-9633-7990BC23590B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "TemplateMethod", "{C1BA2610-B2DB-454B-8931-6550A5E787E1}"
+	ProjectSection(SolutionItems) = preProject
+		TemplateMethod\TemplateMethodPattern.cs = TemplateMethod\TemplateMethodPattern.cs
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{037B6540-8D1C-43CF-B70D-BEF2D716BEDE}"
 EndProject
