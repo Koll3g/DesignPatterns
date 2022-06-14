@@ -62,7 +62,7 @@ classDiagram
 
         +CreateIterator()
     }
-    class ConcreateIterator{
+    class ConcreteIterator{
         <<iterator>>
     }
 ```
