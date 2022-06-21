@@ -10,7 +10,7 @@
 # Problem
 Collections sind einer der häufigsten verwendeten Datentypen in der Programmierun. 
 Nichtsdesotrotz ist eine Sammlung nur ein Container für eine Gruppe von Objekten. Die meisten Sammlungen speichern 
-ihre Elemente in eingachen Listen. Einige von ihnen basieren jedoch auf Stacks, Trees, Graphs und anderen komplexen Datenstrukturen.
+ihre Elemente in einfachen Listen. Einige von ihnen basieren jedoch auf Stacks, Trees, Graphs und anderen komplexen Datenstrukturen.
 
 Aber egal wie eine Sammlung strukturiert ist, sie muss eine Möglichkeit bieten, auf ihre Elemente zuzugreifen, damit andere Codes 
 diese Elemente verwenden können. Es solle eine Möglichkeit geben, die einzelnen Elemente der Sammlung zu druchlaufen,
